@@ -62,7 +62,7 @@ body {
     margin: 20px;
     color: #fff;
     position: relative;
-    top: -50px;
+    top: -210px;
     display: inline-block;
   }
 
@@ -81,22 +81,11 @@ body {
     background-color: #FF983C;
   }
 
-  /* Styling the location temparture and weather type */
-
-  .information{
-    font-family: 'Open Sans', sans-serif;
-    position: relative;
-    top: -70px;
-    font-size: 1.3em;
-  }
-
   /* Loader styling */
   .sk-cube-grid {
     width: 40px;
     height: 40px;
     margin: 0 auto;
-    position: relative;
-    top: -70px;
   }
   
   .sk-cube-grid .sk-cube {
@@ -154,3 +143,36 @@ body {
               transform: scale3D(0, 0, 1);
     } 
   }
+
+
+  
+
+/* Styling the location temparture and weather type */
+
+.information{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.3em;
+  color: #2E3C54;
+  background-color: #e67e22;
+  padding-top: 10px;
+  padding-bottom: 10px; 
+}
+
+.temp-content{
+  position: relative;
+  top: 50px;
+  font-size: 1.5em;
+  line-height: 30px;
+}
+
+.dynamic-content-wrapper{
+  position: relative;
+  top: -210px;
+}
+
+#weather-info{
+  z-index: 1;
+  position: relative;
+  top: -100px;
+  line-height: 20px;
+}
